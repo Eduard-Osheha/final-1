@@ -1,7 +1,9 @@
 import axios from 'axios';
-const axios = require('axios');
-const DEFAULT_URL = 'https://pixabay.com/api/';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
+
+const DEFAULT_URL = 'https://pixabay.com/api/';
+const axios = require('axios');
 
 // const options = {
 //   headers: {
@@ -23,6 +25,7 @@ export default class ImageApiService {
   }
 
   async getImages() {
+   
     const URL = `${DEFAULT_URL}?key=33660007-8865277052768d74528f73e50&q=${this.searchQuery}&image_type=photo&orientation=horizontal&safesearch=true&page=${this.page}&per_page=40`;
     if(this.searchQuery === '') {
       Notify.failure(
