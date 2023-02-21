@@ -1,9 +1,9 @@
-import axios from 'axios';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+// import axios from 'axios';
 
-
-const DEFAULT_URL = 'https://pixabay.com/api/';
 const axios = require('axios').default;
+const DEFAULT_URL = 'https://pixabay.com/api/';
+
 
 // const options = {
 //   headers: {
