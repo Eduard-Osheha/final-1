@@ -69,7 +69,7 @@
   width: 25px;
   height: 25px;
   fill: #757575;
-  transition: scale 350ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fiil 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .search-button:hover & {
@@ -84,7 +84,7 @@
 }
 
 .load-more {
-  margin: 0 auto;
+   margin: 0 auto;
   margin-top: 50px;
   display: block;
   border: none;
@@ -95,6 +95,12 @@
   padding: 10px 20px;
   font-size: 20px;
   font-family:inherit;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: rgb(24, 122, 202);
+    
+  }
 
 &:disabled {
   background-color: #c1c1c1;
@@ -120,7 +126,7 @@
   text-align: center;
   border-radius: 15px;
   padding: 20px;
-  background-color: #c0e2fda8;
+  background-color: #cad0d659;
 
 }
 
