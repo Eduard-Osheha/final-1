@@ -1,7 +1,6 @@
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import axios from "axios";
 import ImageApiService from './js/getImage';
 import createMarkupForOneElement from './js/createImageCard';
 import LoadMoreBtn from './js/loadMoreBtn';
@@ -24,7 +23,7 @@ Notify.init({
     background: '#2196f3',
   },
 });
-const axios = require('axios').default;
+
 const galleryWrapper = document.querySelector('.gallery');
 const gallery = new SimpleLightbox('.gallery a', {captions: false});
 const form = document.getElementById("search-form");
