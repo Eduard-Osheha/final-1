@@ -24,7 +24,7 @@ Notify.init({
     background: '#2196f3',
   },
 });
-const axios = require('axios');
+const axios = require('axios').default;
 const galleryWrapper = document.querySelector('.gallery');
 const gallery = new SimpleLightbox('.gallery a', {captions: false});
 const form = document.getElementById("search-form");
