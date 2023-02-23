@@ -9,7 +9,7 @@ import LoadMoreBtn from './js/loadMoreBtn';
 
 Notify.init({
   width: '400px',
-  distance: '0px',
+  distance: '50px',
   cssAnimation: true,
   cssAnimationDuration: 400,
   cssAnimationStyle: 'fade',
